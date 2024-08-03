@@ -1,5 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { Home } from "../components/Home/Home";
+import { GoogleAuth } from "../components/Login/GoogleAuth";
 
 export default function Page() {
   return (
@@ -7,6 +8,7 @@ export default function Page() {
       <View style={styles.main}>
         <Text style={styles.title}>Hello World Test</Text>
         <Text style={styles.subtitle}>This is the first page of your app.</Text>
+        <GoogleAuth />
         <Home />
       </View>
     </View>
