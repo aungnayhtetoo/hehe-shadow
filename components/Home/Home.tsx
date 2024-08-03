@@ -5,7 +5,11 @@ export const Home = () => {
   return (
     <SafeAreaView>
         <View>
-            <Button title='Press'/>
+            <Button title='Use'/>
+        </View>
+
+        <View>
+            <Button title='Use'/>
         </View>
     </SafeAreaView>
   )
